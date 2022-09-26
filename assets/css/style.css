@@ -1,0 +1,71 @@
+h1 {
+    border: 3px dashed blue;
+    border-radius: 30px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 600px;
+}
+
+body p {
+    border: 3px solid brown;
+    padding: 30px;
+    width: 500px;
+    margin: 20px auto;
+
+}
+
+h2 {
+    border: 3px solid purple;
+    box-shadow: 0 0 10px green;
+    border-radius: 30px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 600px;
+}
+
+h3 {
+    border: 6px double purple;
+    box-shadow: 0 0 10px green;
+    border-radius: 30px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 600px;
+}
+
+ol {
+    /* list style postion sagt, dass die Zahl/punkte inerhalb der Listenbox liegen.  https://www.mediaevent.de/css/list-style-position.html
+    dadaurch wird die zahl aber auch unterstrichen.*/
+    /* list-style-position: inside; */
+    border: 3px solid salmon;
+    padding: 40px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-indent: 0px;
+    /* text-decoration: underline 3px hotpink; */
+    /* Die Unterstreichung setzt aus beim kleinen G. Wieso? Antwort: es ist kein UNterstrich, es ist ein border bottom 1px solid purple */
+}
+
+ul {
+    border: 3px solid salmon;
+    padding: 40px;
+    width: 500px;
+    margin: 20px auto;
+    text-indent: 0px;
+    /* text-decoration: underline 3px hotpink; */
+}
+
+li {
+    border-bottom: 1px solid purple;
+}
